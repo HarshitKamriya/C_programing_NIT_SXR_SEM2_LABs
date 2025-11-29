@@ -1,0 +1,27 @@
+    // public static void check(int n){
+    //     int[] spf = smallest(n);
+    //     int count =0 ;
+    //     while(n>1){
+    //         count++;
+    //         int x = spf[n];
+    //         n = n/x;
+    //     }
+    //     System.out.println(count);
+        
+    // }
+    // public static int[] smallest(int n){
+    //     int[] spf = new int[n+1];
+    //     for(int i=2;i<=n;i++){
+    //         spf[i] = i;
+    //     }
+    //     spf[0] = -1;
+    //     spf[1] = -1;
+    //     for(int i=2;i*i<=n;i++){
+    //         if(spf[i] == i){
+    //             for(int j=i+i;j<=n; j += i){
+    //                 spf[j] = i;
+    //             }
+    //         }
+    //     }
+    //     return spf;
+    // }
